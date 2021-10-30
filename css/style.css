@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter';
+    font-size: medium;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/confeti.jpg);
+}
+
+/* - - - - - - - - - - Menú - - - - - - - - - - */
+
+.nav{
+    width: 1410px;
+    height: 70px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color:rgb(255, 240, 208);  
+}
+
+.logo{
+    padding: 5px;
+    margin-top: 10px !important;
+    margin-left: 1px;
+    box-sizing: border-box;
+    
+}
+
+.nav-bar{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: right !important;
+}
+
+.nav-item{
+    border: 1px solid;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: black;
+    color: rgb(255, 214, 89);
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.nav-item a:link{
+    color: white;
+}
+
+.nav-item a:visited{
+    color: violet;
+}
+
+.nav-item a:hover{
+    color: black;
+    background-color: rgb(255, 214, 89);
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size:large;
+}
+
+.nav-item a:active{
+    color:rgb(255, 214, 89);
+    background-color: rgb(255, 214, 89);
+}
+
+/* - - - - - - - - - - Primera Sección - - - - - - - - - - */
+
+.row-chronos{
+    width: 1415px;
+    height: 355px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 213, 89, 0.7) !important;
+}
+
+.col-md-4{
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-left: 35px;
+    display:inline-block;
+}
+
+button {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    animation: ease-in;
+}
+
+.close-image{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    top: 50%;
+    left: 1%;
+    transition: all 300ms;
+}
+
+.close-image:hover{
+    box-shadow: 0px 0px 30px -10px black;
+}
+
+.close-image img {
+    display: block;
+    width: 400px;
+    height: 300px; 
+    transition: all 300ms; 
+}
+
+.close-image:hover img{
+    transform: scale(1.6) rotate(10deg);
+}
+
+.close-image h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:xx-large;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgb(255, 214, 89);
+    z-index: 2;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+    border: 2px solid white;
+    border-radius: 70px;
+    background: black;
+    padding: 6px;
+}
+
+.close-image:hover h2{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.close-image:before,
+.close-image:after{
+    content: '';
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.6;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+    border: 4px solid white;
+    z-index: 1;
+}
+
+.close-image:before{
+    transform: rotate(45deg) translateY(-450px) translateX(20px);
+}
+
+.close-image:after{
+    transform: rotate(45deg) translateY(450px) translateX(-60px);
+}
+
+.close-image:hover:before{
+    transform: rotate(45deg) translateY(-160px) translateX(20px);
+}
+
+.close-image:hover:after{
+    transform: rotate(45deg) translateY(230px) translateX(-60px);
+}
+
+/* - - - - - - - - - - Segunda Sección - - - - - - - - - - */
+
+.animate__animated{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 100px;
+    color: rgb(255, 240, 208);
+    width: 98.2%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bengalas-ARCOIRIS.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-duration: 10s;
+}
+
+/* - - - - - - - - - - Tercer Sección - - - - - - - - - - */
+
+.row-seccion3{
+    width: 1415px;
+    height: 355px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 213, 89, 0.7);
+}
+
+.col-md-6{
+    padding-left: 10px;
+    margin-left: 35px;
+    display:inline-block;
+}
+
+#man-holding{
+    width: 400px;
+    height: 300px; 
+    margin-top: 25px;  
+}
+
+#nosotros{
+    width: 800px;
+    height: 300px;
+    align-items: flex-start !important;
+    margin-top: 5px;
+    font-size:xx-large;
+}
+
+/* - - - - - - - - - - Footer - - - - - - - - - - */
+
+.cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 1%;
+    color: #fff;
+    width: 1400px;
+    height: 200px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+
+.cont_footer a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.col-md-3{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+    align-items: start !important;
+    display: inline-block;
+}
+
+.iconos-redes a{
+    display: inline-block !important;
+}
+
+/* - - - - - - - - - - - - - - - - - - Media Responsive 1 - - - - - - - - - - - - - - - - - - */
+
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait){
+
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 97.5%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        display:inline-flexbox;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+    
+    /* - - - - - - - - - - Primera Sección - - - - - - - - - - */
+    
+    .row-chronos{
+        width: 98.5%;
+        height: auto;
+        max-width: 1000px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5px;
+        box-sizing: border-box;
+        border-radius: 10%;
+    }
+    
+    .col-md-4{
+        width: 60%;
+        padding-left: 10px;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: 15%;
+        display: list-item;
+        list-style-type: none;
+    }
+    
+    /* - - - - - - - - - - Segunda Sección - - - - - - - - - - */
+    
+    .animate__animated{
+  
+        margin-bottom: auto;
+        padding: 0;
+        font-size: 80px;
+        width: 98.5%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../img/bengalas-ARCOIRIS.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* - - - - - - - - - - Tercer Sección - - - - - - - - - - */
+    
+    .row-seccion3{
+        width: 98.5%;
+        height: auto;
+        max-width: 1000px;
+        padding-left: 5px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10%;
+    }
+    
+    .col-md-6{
+        padding-left: 10px;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: 25%;
+        display:list-item;
+        list-style-type: none;
+    }
+    
+    #man-holding{
+        width: 70%;
+        margin-top: 25px;  
+    }
+    
+    #nosotros{
+        width: 70%;
+        height: auto;
+        align-items: flex-start !important;
+        margin-top: 5px;
+        font-size: medium;
+    }
+    
+    /* - - - - - - - - - - Footer - - - - - - - - - - */
+    
+    .cont_footer{
+        background-color: rgba(238, 130, 238, 0.7);
+        padding: 1%;
+        color: black;
+        width: 96.5%;
+        height: auto; 
+        box-sizing: border-box;
+        border-radius: 10%;
+    }
+    
+    .cont_footer a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        
+    }
+    
+    .col-md-3{
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-left: 35px;
+        align-items: start !important;
+        display: inline-block;
+    }
+    
+    .iconos-redes a{
+        display: inline-block !important;
+    }
+}
+
+/* - - - - - - - - - - Media Responsive 2 - - - - - - - - - - */
+
+@media (max-width: 575.98px) and (orientation:portrait){
+    
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 97.5%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        display:inline-flexbox;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+    
+    /* - - - - - - - - - - Primera Sección - - - - - - - - - - */
+    
+    .row-chronos{
+        width: 98%;
+        height: auto;
+        max-width: 1000px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+       
+        box-sizing: border-box;
+        border-radius: 10%;
+    }
+    
+    .col-md-4{
+        width: 60%;
+        padding-left: 10px;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        display: list-item;
+        list-style-type: none;
+    }
+    
+    /* - - - - - - - - - - Segunda Sección - - - - - - - - - - */
+    
+    .animate__animated{
+  
+        margin-bottom: auto;
+        padding: 0;
+        font-size: 80px;
+        width: 98%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../img/bengalas-ARCOIRIS.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* - - - - - - - - - - Tercer Sección - - - - - - - - - - */
+    
+    .row-seccion3{
+        width: 98%;
+        height: auto;
+        max-width: 1000px;
+        padding-left: 5px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10%;
+    }
+    
+    .col-md-6{
+        padding-left: 10px;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        display:list-item;
+        list-style-type: none;
+    }
+    
+    #man-holding{
+        width: 90%;
+        height: auto;
+        margin-top: 25px;  
+    }
+    
+    #nosotros{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        align-items: flex-start !important;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        font-size: medium;
+    }
+    
+    /* - - - - - - - - - - Footer - - - - - - - - - - */
+    
+    .cont_footer{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1%;
+        color: rgb(255, 214, 89);
+        width: 96.5%;
+        height: auto; 
+        box-sizing: border-box;
+        border-radius: 10%;
+    }
+    
+    .cont_footer a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        
+    }
+    
+    .col-md-3{
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-left: 35px;
+        align-items: start !important;
+        display: inline-block;
+    }
+    
+    .iconos-redes a{
+        display: inline-block !important;
+    }
+}

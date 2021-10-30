@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter';
+    font-size: medium;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/confeti.jpg);
+}
+
+/* Menú */
+
+.nav{
+    width: 1410px;
+    height: 70px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:rgb(255, 240, 208);  
+}
+
+.logo{
+    padding: auto;
+    margin-top: 5px !important;
+    margin-left: 5px;
+    box-sizing: border-box;
+    
+}
+
+.nav-bar{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: right !important;
+}
+
+.nav-item{
+    border: 1px solid;
+    display: inline-flex;
+    float: right;
+    padding: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: black;
+    color: rgb(255, 214, 89);
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.nav-item a:link{
+    color: white;
+}
+
+.nav-item a:visited{
+    color: violet;
+}
+
+.nav-item a:hover{
+    color: black;
+    background-color: rgb(255, 214, 89);
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size:large;
+}
+
+.nav-item a:active{
+    color:rgb(255, 214, 89);
+    background-color: rgb(255, 214, 89);
+}
+
+/* - - - - - - SEGUNDA SECCIÓN - - - - - - */
+
+.sec-productos-1{
+    display: inline-flex;
+}
+
+.card{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 18px;
+    text-align: center;
+}
+
+/* - - - - - - TERCER SECCIÓN - - - - - - */
+
+.sec-productos-2{
+    display: inline-flex;
+}
+
+.card{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 18px;
+    text-align: center;
+}
+
+/* - - - - - - - - - - - - - - - - - - Media Responsive 1 - - - - - - - - - - - - - - - - - - */
+
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait){
+
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 98%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        display:inline-flexbox;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+
+    /* - - - - - - SEGUNDA SECCIÓN - - - - - - */
+
+    .sec-productos-1{
+        display:list-item;
+        padding-left: 20%;
+    }
+
+    .card{
+        text-align: center;
+    }
+
+    /* - - - - - - TERCER SECCIÓN - - - - - - */
+
+    .sec-productos-2{
+        display:list-item;
+        padding-left: 20%;
+    }
+
+    .card{
+        text-align: center;
+    }
+
+}
+
+/* - - - - - - - - - - Media Responsive 2 - - - - - - - - - - */
+
+@media (max-width: 575.98px) and (orientation:portrait){
+    
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 98%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+
+    /* - - - - - - SEGUNDA SECCIÓN - - - - - - */
+
+    .sec-productos-1{
+        display:list-item;
+        padding-left: 7%;
+    }
+
+    .card{
+        padding: 0px;
+        margin-top: 20px;
+        margin-right: 1%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /* - - - - - - TERCER SECCIÓN - - - - - - */
+
+    .sec-productos-2{
+        display:list-item;
+        padding-left: 7%;
+    }
+
+    .card{
+        padding: 0px;
+        margin-top: 20px;
+        margin-right: 1%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../css/style-contacto.css">
+    <link rel="stylesheet" href="../css/Whatsapp-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ext/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="../index.html"> <img src="../img/clock.png" width="60px" height="60px" alt="Logo"></a>
+                <ul class="nav-bar">        
+                    <li class="nav-item">
+                        <a style="text-decoration: none;" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="text-decoration: none;" href="../pages/otros productos.html">OTROS PRODUCTOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>    
+    </header> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a class="float" href="https://api.whatsapp.com/send?phone=+5491167875759&text=Hola! Quisiera saber más infromación sobre tus productos!" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <section class="sec-contacto-2">
+        <div class="contact_form">
+            <div class="formulario">      
+                <h1>Ponete en contacto con nosotros</h1>
+                <h3>Escribinos y en breve nos comunicaremos con vos</h3>
+                <form id="formulario" action="procesar.php" method="post">
+                    <p>
+                        <label for="usuario" class="form-control">Nombre de usuario
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="usuario" required="obligatorio" placeholder="Escribí tu nombre">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="email" class="form-control">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribí tu Email">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono</label>
+                        <br>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribí tu teléfono">
+                    </p>  
+                    <br>
+                    <p>
+                        <label for="pass" class="form-control">Contraseña
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="password" name="introducir_password" id="pass" required="obligatorio" placeholder="Escribí tu contraseña">
+                    </p> 
+                    <br>
+                    <p>
+                        <label for="passConfirma" class="form-control">Confirmar contraseña
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="password" name="introducir_password" id="passConfirma" required="obligatorio" placeholder="Escribí tu contraseña">
+                    </p> 
+                    <br>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label> 
+                        <br>                    
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p> 
+                    <br>                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                    <p class="aviso">
+                        <br>
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>     
+                </form> 
+            </div>
+        </div>
+    </section>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2010 - 2021  Bengalas Chronos</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"> Privado </a></li>
+            <li class="list-inline-item"><a href="#"> Términos </a></li>
+            <li class="list-inline-item"><a href="#"> Soporte </a></li> 
+        </ul>
+    </footer>
+    <script src="../ext/js/bootstrap.min.js"></script>
+    <script src="../ext/aos.css"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

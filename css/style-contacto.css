@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter';
+    font-size: medium;
+}
+
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/confeti.jpg);
+}
+
+/* Menú */
+
+.nav{
+    width: 1410px;
+    height: 70px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:rgb(255, 240, 208);  
+}
+
+.logo{
+    padding: auto;
+    margin-top: 5px !important;
+    margin-left: 5px;
+    box-sizing: border-box;
+    
+}
+
+.nav-bar{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: right !important;
+}
+
+.nav-item{
+    border: 1px solid;
+    display: inline-flex;
+    float: right;
+    padding: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: black;
+    color: rgb(255, 214, 89);
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.nav-item a:link{
+    color: white;
+}
+
+.nav-item a:visited{
+    color: violet;
+}
+
+.nav-item a:hover{
+    color: black;
+    background-color: rgb(255, 214, 89);
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size:large;
+}
+
+.nav-item a:active{
+    color:rgb(255, 214, 89);
+    background-color: rgb(255, 214, 89);
+}
+
+/* - - - - - SEGUNDA SECCIÓN CONTACTO - - - - - */
+
+.contact_form{
+    width: 460px; 
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: rgb(255, 240, 208); 
+    padding-left: 30px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+.form-control{
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    border: none !important;
+    background-color: transparent !important;
+    border-style: none; 
+}
+
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(175, 129, 100); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+.colocar_telefono{
+    margin-bottom: 7px;
+    margin-left: 15px;
+    padding-bottom: 7px;
+}
+
+.colocar_mensaje{
+    margin-bottom: 7px;
+    margin-left: 15px;
+    padding-bottom: 7px;
+}
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(175, 129, 100); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+button{
+    width: 405px;
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(175, 129, 100); 
+    border-color: rgb(175, 129, 100); 
+    border-style: solid; 
+    border-radius: 10px;   
+    cursor: pointer;
+}
+
+
+button p{
+    color: #fff; 
+    font-size: x-large;
+}
+
+
+span{
+    color: rgb(175, 129, 100); 
+}
+
+
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+
+
+h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: rgb(175, 129, 100);
+}
+
+
+h3{
+font-size: 16px; 
+padding-bottom: 30px;
+color: #0e0e0e;   
+}
+
+
+p{
+font-size: 14px; 
+color: #0e0e0e; 
+}
+
+
+
+
+::-webkit-input-placeholder {
+color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+/* - - - - - - - - - - - - - - - - - - Media Responsive 1 - - - - - - - - - - - - - - - - - - */
+
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait){
+
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 97.5%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        display:inline-flexbox;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+
+    /* - - - - - SEGUNDA SECCIÓN CONTACTO - - - - - */
+
+    .contact_form{
+        width: 60%; 
+        height: auto;
+        margin: 20px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: rgba(238, 130, 238, 0.7); 
+        padding-left: 30px; 
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    label{
+        display: block; 
+        float: center;  
+    }
+
+    input{
+        background-color: #fbfbfb; 
+        width: 55%; 
+        height: auto; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgb(175, 129, 100); 
+        margin-top: 5%;  
+        padding-left: 10px;
+        margin-bottom: 5%; 
+    }
+    
+    textarea{
+        background-color: #fbfbfb; 
+        width: 55%; 
+        height: auto; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgb(175, 129, 100); 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+    }
+
+    button{
+        width: 50%;
+        height: auto; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #0509dd; 
+        border-color: rgb(175, 129, 100); 
+        border-style: solid; 
+        border-radius: 10px;   
+        cursor: pointer;
+    }
+
+    button p{
+        color: #fff; 
+        font-size: x-large;
+        margin-top: 5%;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    span{
+        color: #0509dd; 
+    }
+
+    .aviso{
+        font-size: 13px;  
+        color: #0e0e0e;  
+    }
+
+    h1{
+        font-size: 39px;  
+        text-align: center; 
+        padding-bottom: 20px; 
+        color: #0509dd;
+    }
+
+    h3{
+        font-size: 16px;
+        text-align: center; 
+        padding-bottom: 30px;
+        color: #0e0e0e;   
+    }
+
+    p{
+        font-size: 14px; 
+        color: #0e0e0e; 
+    }
+}
+
+/* - - - - - - - - - - Media Responsive 2 - - - - - - - - - - */
+
+@media (max-width: 575.98px) and (orientation:portrait){
+    
+    /* - - - - - - - - - - Menú - - - - - - - - - - */
+    
+    .nav{
+        width: 97.5%;
+        height: auto;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    }
+    
+    .logo{
+        padding: 5px;
+        margin-top: 10px !important;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar{
+        list-style-type: none;
+        display: inline-flexbox;
+        margin: 0;
+        padding: 0;
+        float: right !important;
+    }
+    
+    .nav-item{
+        border: 1px solid;
+        display: inline-flex;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background-color: black;
+        color: rgb(255, 214, 89);
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+
+    /* - - - - - SEGUNDA SECCIÓN CONTACTO - - - - - */
+
+    .contact_form{
+        width: 98%; 
+        height: auto;
+        margin: 20px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: rgb(255, 240, 208); 
+        padding-left: 30px; 
+    }
+
+    label{
+        display: block; 
+        float: center;  
+    }
+
+    input{
+        background-color: #fbfbfb; 
+        width: 92.5%; 
+        height: auto; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgb(175, 129, 100); 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+    }
+    
+    textarea{
+        background-color: #fbfbfb; 
+        width: 92.5%; 
+        height: 60%; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgb(175, 129, 100); 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+    }
+
+    button{
+        width: 92.5%;
+        height: auto; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: rgb(175, 129, 100); 
+        border-color: rgb(175, 129, 100); 
+        border-style: solid; 
+        border-radius: 10px;   
+        cursor: pointer;
+    }
+
+    button p{
+        color: #fff; 
+        font-size: x-large;
+    }
+
+    span{
+        color: rgb(175, 129, 100); 
+    }
+
+    .aviso{
+        font-size: 13px;  
+        color: #0e0e0e;  
+    }
+}
