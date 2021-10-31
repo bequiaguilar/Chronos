@@ -347,7 +347,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(img/bengalas-ARCOIRIS.png);
+        background-image: url(/img/bengalas-ARCOIRIS.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -452,7 +452,7 @@ button {
         display:inline-flexbox;
         margin: 0;
         padding: 0;
-        float: right !important;
+        float: right;
     }
     
     .nav-item{
@@ -460,7 +460,7 @@ button {
         display: inline-flex;
         padding: 10px;
         margin-top: 7px;
-        margin-right: 10px;
+        margin-right: 2px;
         background-color: black;
         color: rgb(255, 214, 89);
         font-weight: lighter;
@@ -484,11 +484,11 @@ button {
     
     .col-md-4{
         width: 60%;
-        padding-left: 10px;
+        padding-left: 5px;
         margin-top: 5%;
         margin-right: 5%;
         margin-bottom: 0%;
-        margin-left: 5%;
+        margin-left: 2%;
         display: list-item;
         list-style-type: none;
     }
@@ -505,7 +505,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(img/bengalas-ARCOIRIS.png);
+        background-image: url(/img/bengalas-ARCOIRIS.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
