@@ -459,13 +459,15 @@ button {
         width: 15%;
         border: 1px solid;
         display: inline-flex;
-        padding: 10px;
+        float: right;
+        padding: 0;
         margin-top: 7px;
         margin-right: 0;
         background-color: black;
         color: rgb(255, 214, 89);
         font-weight: lighter;
-        font-size: smaller;
+        font-size:xx-small;
+        text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         border-radius: 50px;
@@ -484,7 +486,8 @@ button {
     }
     
     .col-md-4{
-        width: 30%;
+        width: 20%;
+        height: auto;
         margin-top: 5%;
         margin-bottom: 0%;
         margin-left: 0%;
