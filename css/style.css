@@ -10,7 +10,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../img/confeti.jpg);
+    background-image: url(img/confeti.jpg);
 }
 
 /* - - - - - - - - - - Menú - - - - - - - - - - */
@@ -194,7 +194,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/bengalas-ARCOIRIS.png);
+    background-image: url(img/bengalas-ARCOIRIS.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -347,7 +347,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(../img/bengalas-ARCOIRIS.png);
+        background-image: url(img/bengalas-ARCOIRIS.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -505,7 +505,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(../img/bengalas-ARCOIRIS.png);
+        background-image: url(img/bengalas-ARCOIRIS.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
