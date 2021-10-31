@@ -456,7 +456,7 @@ button {
     }
     
     .nav-item{
-        width: 50%;
+        width: 45%;
         border: 1px solid;
         display: inline-flex;
         float: right;
@@ -472,6 +472,10 @@ button {
         text-transform: uppercase;
         border-radius: 50px;
     }
+
+    .nav-item a{
+        text-align: center;
+    }
     
     /* - - - - - - - - - - Primera Sección - - - - - - - - - - */
     
@@ -486,7 +490,7 @@ button {
     }
     
     .col-md-4{
-        width: 30%;
+        width: 10% !important;
         height: auto;
         margin-top: 5%;
         margin-bottom: 0%;
