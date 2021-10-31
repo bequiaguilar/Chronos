@@ -456,7 +456,7 @@ button {
     }
     
     .nav-item{
-        width: fit-content;
+        width: 30%;
         border: 1px solid;
         display: inline-flex;
         padding: 10px;
@@ -485,8 +485,11 @@ button {
     .col-md-4{
         width: 40%;
         margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: 0%;
         display: list-item;
         list-style-type: none;
+        text-align: center;
     }
     
     /* - - - - - - - - - - Segunda Sección - - - - - - - - - - */
