@@ -194,7 +194,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(img/bengalas-ARCOIRIS.png);
+    background-image: url(/img/bengalas-ARCOIRIS.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
