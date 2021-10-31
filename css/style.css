@@ -456,7 +456,7 @@ button {
     }
     
     .nav-item{
-        width: 30%;
+        width: 50%;
         border: 1px solid;
         display: inline-flex;
         float: right;
@@ -467,7 +467,7 @@ button {
         color: rgb(255, 214, 89);
         font-weight: lighter;
         font-size:xx-small;
-        text-align: center;
+        text-align: center !important;
         text-decoration: none;
         text-transform: uppercase;
         border-radius: 50px;
@@ -486,7 +486,7 @@ button {
     }
     
     .col-md-4{
-        width: auto;
+        width: 30%;
         height: auto;
         margin-top: 5%;
         margin-bottom: 0%;
