@@ -247,13 +247,15 @@ body{
     /* - - - - - - SEGUNDA SECCIÓN - - - - - - */
 
     .sec-bengalas-1{
-        width: auto;
+        width: 98%;
         height: auto;
         display: list-item;
         margin-left: 5px;
     }
 
     .card{
+        width: 96%;
+        height: auto;
         padding: 0px;
         margin-top: 20px;
         margin-left: 10px;
