@@ -230,6 +230,7 @@ body{
     }
     
     .nav-item{
+        float: right;
         border: 1px solid;
         display: inline-flex;
         padding: 10px;
@@ -246,15 +247,20 @@ body{
     /* - - - - - - SEGUNDA SECCIÓN - - - - - - */
 
     .sec-bengalas-1{
+        width: auto;
+        height: auto;
         display: list-item;
-        margin-left: 10px;
-       
+        margin-left: 5px;
     }
 
     .card{
         padding: 0px;
         margin-top: 20px;
-        margin-left: 18px;
+        margin-left: 10px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10%;
     }
 
     /* - - - - - - TERCER SECCIÓN - - - - - - */
