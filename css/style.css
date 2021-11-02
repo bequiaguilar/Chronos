@@ -493,6 +493,27 @@ button {
         display:list-item;
         list-style-type: none;
     }
+
+    button {
+        display: inline-block;
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        animation: ease-in;
+    }
+    
+    .close-image{
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        top: 50%;
+        left: 1%;
+        transition: all 300ms;
+    }
     
     /* - - - - - - - - - - Segunda Sección - - - - - - - - - - */
     
